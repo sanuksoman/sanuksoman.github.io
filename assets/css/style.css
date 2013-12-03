@@ -48,6 +48,9 @@ margin: 10px;
     border-radius: 3px 3px 3px 3px;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
     margin-bottom: 10px;
+	text-align:center;
+	
+	
     /*min-width: 200px;*/
 }
 .gal-box img
