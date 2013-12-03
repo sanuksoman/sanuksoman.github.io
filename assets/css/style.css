@@ -1,0 +1,117 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    font-family: "Lucida Grande", "Helvetica Nueue", Arial, sans-serif;
+    background: url('../images/bg.png') center;
+
+}
+.head
+{
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid #CCC;
+    background: #000000;
+    opacity: .7;
+    line-height: 40px;
+}
+
+.head h1.site-name
+{
+    color: #FFF;
+    margin: 0;
+    padding: 5px;
+    font-size:1.6em;
+}
+.nav-bar
+{
+    height: 50px;
+    background: #CCCCCC;
+    border-bottom: 1px solid #CCC;
+}
+.content
+{
+margin: 10px;
+}
+.eq-col
+{
+    float: left;
+    width: 25%;
+}
+.gal-box
+{
+    width:90%;
+    border:1px solid #CCC;
+    overflow: hidden;
+    position: relative;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
+    margin-bottom: 10px;
+    /*min-width: 200px;*/
+}
+.gal-box img
+{
+    margin: 0;
+    max-height: 200px;
+}
+.gal-box .desc
+{
+    margin: 0;
+    background: #000000;
+    color: #FFFFFF;
+    font-size: 1em;
+    position: absolute;
+    opacity: .8;
+    width: 100%;
+    bottom:0;
+}
+.gal-box .desc p
+{
+    padding: 10px;
+    float: left;
+    margin: 0;
+    font-size: 11px;
+	text-transform:uppercase;
+}
+.gal-box .desc div.year
+{
+    width:20px;
+    float: left;
+    font-size: .8em;
+    border-right: 1px solid #CCC;
+    padding: 10px;
+    text-align: center;
+    width: 50px;
+}
+.sub-head
+{
+    background: linear-gradient(#F3F3F3, #E5E5E5) repeat scroll 0 0 #ECECEC;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.17) rgba(0, 0, 0, 0.2) #D4D4D4;
+    border-radius: 4px 4px 4px 4px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.14);
+    clear: both;
+    color: #777777;
+    height: 44px;
+    line-height: 44px;
+    overflow: hidden;
+    position: relative;
+    font-size: 1em;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    opacity: .8;
+}
+.footer
+{
+    text-align: center;
+      font-size: 1em;
+clear: both;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0 10px 0;
+    color:#000055;
+    margin-top: 20px;
+
+}
